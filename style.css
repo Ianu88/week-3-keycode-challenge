@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 200px;
+}
+
+#welcome {
+   top: 50%;
+   left: 50%;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 70px;
+}
+
+.box {
+    background: plum;
+    color: black;
+    width: 15%;
+    margin: 15px;
+    text-align: center;
+    vertical-align: text-top;
+}
