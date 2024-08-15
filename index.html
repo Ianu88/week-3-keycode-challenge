@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
    
 </head>
+<!-- added a polite welcome and the keydown element-->
 <body id="page-wrapper" onkeydown="keycode(event)">
     <div id="welcome">
         <h1>Welcome! Please press any key you please!</h1>
@@ -16,21 +17,18 @@
         <h1>Keycode Generator</h1>
         <h2 id="keycode"></h2>
         <div id="wrapper">
+<!-- to identify the key pressed -->
             <div class="box">
                 <p>event.key</p>
                 <h3 id="eventKey"></h3>
             </div>
 
-            <div class="box">
-                <p>event.location</p>
-                <h3 id="eventLocation"></h3>
-            </div>  
-
+<!-- to log the which value of the key -->
             <div class="box">
                 <p>event.which</p>
                 <h3 id="eventWhich"></h3>
             </div>
-
+            <!-- to log the code value of the key -->
             <div class="box">
                 <p>event.code</p>
                 <h3 id="eventCode"></h3>
