@@ -2,6 +2,7 @@ let welcome = document.getElementById('welcome');
 let generator = document.getElementById('generator');
 let head = document.getElementById('keycode');
 
+// continued removal of location variable from the html stage
 function keycode(event) {
 let key = event.key;
 let which = event.which;
